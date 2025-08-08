@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bloques paralelos</title>
+  <style>
+  div{
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 0;
+  list-style: none;
+  height: 100px;
+  }
+  div p{
+   font-family: sans-serif;
+   background-color: aquamarine;
+   flex: 1 1 0;  
+  }
+  </style>
+</head>
+<body>
+  <div>
+  <p>Solo tengo una línea</p>
+  <p>Solo tengo una línea</p>
+  <p>Este es más largo que los otros dos y ocupa más líneas
+Pero todos estos bloques tienen la misma altura y anchura,
+ crecen o de contraen para repartirse el ancho disponible</p>
+  </div>
+</body>
+</html>
